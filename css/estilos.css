@@ -29,3 +29,21 @@ h1,h2 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.character {
+    width: 25%;
+    margin: 3%;
+    border: 2px red solid;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.character img {
+    width: 80%;
+    border-radius: 3%;
+}
+
+.info-character{
+    text-align: justify;
+    padding: 3%;
+}
