@@ -32,22 +32,75 @@
                                 <label>Tipo de mensaje</label>
                             </div>
                             <select id="type" name="type" required>
-                                <option value="">Seleccione una opción></option>
-                                <option value="Cotización">Cotización></option>
-                                <option value="Saludo">Saludo></option>
-                                <option value="Queja">Queja></option>
+                                <option value=""> Seleccione una opción </option>
+                                <option value="Cotización"> Cotización </option>
+                                <option value="Saludo"> Saludo </option>
+                                <option value="Queja"> Queja </option>
                             </select>
                         </div>
 
                         <div>
                             <div>
-                                <label>Nombre Completo</label>
+                                <label> Nombre </label>
                             </div>
-                            <imput type="text" id="name" name="name" placeholder="Ingrese su nombre completo"
+                            <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo" required> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label>email</label> 
+                            </div>
+                            <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label>Edad</label>
+                            </div>
+                            <input type="number" id="Edad" name="Edad" placeholder="Ingrese su edad" required> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label>Teléfono</label>
+                            </div>
+                            <input type="text" id="Teléfono" name="Teléfono" placeholder="Ingrese su teléfono" required> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label>Comentarios</label>
+                            </div>
+                            <textarea id="Comment" name="Comment" cols="10" rows="4"  placeholder="Escriba su comentario aquí" required> </textarea> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label>¿Qué estudias?</label>
+                            </div>
+                            <input type="checkbox" id="chk1" name="chk1" value="HTML" > HTML
+                            <input type="checkbox" id="chk2" name="chk2" value="CSS"> CSS
+                            <input type="checkbox" id="chk3" name="chk3" value="PHP"> PHP
+                        </div>
+
+                        <div>
+                            <div>
+                                <label>¿Qué te gusta hacer?</label>
+                            </div>
+                            <input type="radio" id="radio1" name="radio" value="Jugar" > Jugar
+                            <input type="radio" id="radio2" name="radio" value="Ver Televisión"> Ver Televisión
+                            <input type="radio" id="radio3" name="radio" value="Programar"> Programar
+                        </div>
+
+                        <div>
+                            <button type="submit" onclick="validardatos()">Enviar Datos</button>
+                        </div>
 
 
+                       
 
-                        </div>   
+                        
+                    
                          
 
 
@@ -66,7 +119,10 @@
 
         <footer>
             <p>Creado por Diana Romero </p>
-        </footer>    
+        </footer>
+
+        <script src="js/script.js"></script>
+        
 
     </body>
 </html>
